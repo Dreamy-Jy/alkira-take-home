@@ -1,0 +1,46 @@
+.layout-switch {
+    height: 40px;
+    border-radius: 25px;
+    width: fit-content;
+}
+
+.layout-switch:hover {
+    box-shadow: 0 3px 6px 0 rgb(138 172 237 / 100%);
+}
+
+.layout-switch:hover>button {
+    box-shadow: 0 3px 6px 0 rgb(138 172 237 / 100%);
+}
+
+.layout-switch>button {
+    height: inherit;
+    font-size: 26px;
+    border-width: 0;
+    outline: none;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 40%);
+    background-color: white;
+    color: #8AACED;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.layout-switch>.left-button {
+    border-radius: 25px 0 0 25px;
+    padding-left: 16px;
+    padding-right: 8px;
+}
+
+.layout-switch>.right-button {
+    border-radius: 0 25px 25px 0;
+    padding-left: 8px;
+    padding-right: 16px;
+}
+
+.layout-switch>.active {
+    color: #17408B;
+    background-color: #E6E6E6;
+}
+
+.layout-switch>.inactive {
+    transform: translate(0, 0);
+}

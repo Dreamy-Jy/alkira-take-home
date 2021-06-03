@@ -1,0 +1,44 @@
+.list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 40%);
+    margin-bottom: 20px;
+    width: 80%;
+    padding: 29px 32px;
+}
+
+.list-item:hover {
+    box-shadow: 0 3px 6px 0 rgb(138 172 237 / 100%);
+}
+
+.list-item-icon {
+    font-size: 70px;
+    color: #C9082A;
+}
+
+.list-item-text-container {
+    margin-left: 14px;
+}
+
+.list-item-text-container>div {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-item-text-container>div>p {
+    margin: 0px;
+}
+
+.list-item-text-container {
+    color: #17408B;
+}
+
+.list-item-big-text {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.list-item-little-text {
+    font-size: 14px;
+}

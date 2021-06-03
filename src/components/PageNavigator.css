@@ -1,0 +1,22 @@
+.page-navigator {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #17408B;
+    width: fit-content;
+}
+
+.page-navigator>p {
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.push-right {
+    margin-right: 8px;
+}
+
+.page-navigator-button-invisible {
+    visibility: hidden;
+}
